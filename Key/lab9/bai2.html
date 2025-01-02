@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai 1</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label for="name">Ho va ten</label> <br>
+            <input class="form-control" type="text" name="name">
+        </div>
+        <div class="border-form">
+            <label class="label-form">Gioi tinh:</label> <br>
+            <label for="male"><input type="radio" name="gender" value="male">Nam</label>
+            <label for="female"><input type="radio" name="gender" value="female">Nu</label>
+        </div>
+        <div>
+            <label>Ngay sinh:</label> <br>
+            <input class="form-control" type="date" >
+        </div>
+        <div>
+            <label>Diem:</label><br>
+            <input class="form-control" type="text">
+        </div>
+        <div>
+            <label>Nghe Ngiep:</label><br>
+            <select class="form-control">
+                <option value="1">Sinh vien</option>
+                <option value="2">Giao vien</option>
+                <option value="3">Bac si</option>
+                <option value="4">Ky su</option>
+            </select>
+        </div>
+        <div class="border-form">
+            <label class="label-form">So thich:</label> <br>
+            <label for="tt"><input type="checkbox" name="tt">The thao</label>
+            <label for="dl"><input type="checkbox" name="dl">Du lich</label>
+            <label for="am"><input type="checkbox" name="an">Am nhac</label>
+            <label for="at"><input type="checkbox" name="at">Am thuc</label>
+        </div>
+        <div>
+            <label>Ghi chu:</label> <br>
+            <textarea name="ghiChu" class="form-control ghiChu"></textarea>
+        </div>
+        <hr style="margin-top: 16px;">
+        <div>
+            <input class="form-btn" type="button" value="Dang ky">
+            <input class="form-btn" type="reset" value="Nhap lai">
+        </div>
+    </form>
+</body>
+
+</html>

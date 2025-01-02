@@ -1,22 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <div id="container">
         <header>
             <img src="./images/banner.jpg" alt="">
+            <div class="top-right">
+                <a href="DangNhap.html">Dang nhap</a>
+                <a href="DangKy.html">Dang ky</a>
+                <a href="#">Quen mat khau</a>
+            </div>
+            <div class="bottom-left">
+                <h1>FPT Popytechnic</h1>
+                <p>Thuc hoc - thuc nghiep</p>
+            </div>
         </header>
         <nav>
-            <a href="#" target="page">Trang chu</a>|
-            <a href="#" target="page">Gioi thieu</a>|
-            <a href="#">Lien he</a>|
-            <a href="#">Goi y</a>|
-            <a href="#">Giai dap</a>
+            <ul class="nav-menu">
+                <li><a href="#" target="page">Trang chu</a></li>
+                <li><a href="#" target="page">Gioi thieu</a></li>
+                <li>
+                    <a href="#">Lien he</a>
+                    <ul class="sub-nav">
+                        <li><a href=""></a>Mobile</li>
+                        <li><a href=""></a>Mail</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Goi y</a>
+                    <ul class="sub-nav">
+                        <li><a href=""></a>Mobile</li>
+                        <li><a href=""></a>Mail</li>
+                    </ul>
+                </li>
+                <li><a href="#">Hoi dap</a></li>
+            </ul>
         </nav>
         <article>
             <div class="col-25">
@@ -138,4 +163,5 @@
         </footer>
     </div>
 </body>
+
 </html>
