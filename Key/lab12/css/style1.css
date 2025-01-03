@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content h3{
+    color: blue;
+}
+tr{
+    margin: 25px 0;
+    display: block;
+
+}
+td{
+    margin: 0 7px;
+    display: inline-block;
+}
+img{
+    width: 190px;
+}
+.content{
+    position: relative;
+    top: -46px;
+}
+

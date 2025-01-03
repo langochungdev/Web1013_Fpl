@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+table tr:first-child{
+    background-color: rgb(77, 127, 2);
+    color: white;
+    font-weight: bold;
+    height: 45px;
+    border: 2px solid white; 
+}
+table tr:first-child + tr{
+    background-color: greenyellow;
+    height: 35px; 
+}
+table tr:nth-child(n+2) td:nth-child(3){
+    width: 70px;
+}
+table tr:nth-child(n+2) td{
+    border: 2px solid rgb(77, 127, 2);    
+}
